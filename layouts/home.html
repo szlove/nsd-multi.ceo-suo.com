@@ -259,9 +259,10 @@
 		<div class="mt-3 text-center text-zinc-500 font-bold">{{ .Site.Params.Store.Name }}에는 소·중·대 크기의 룸이 준비되어 있으며, 모던한 인테리어와 최고급 음향 시설이 세팅되어 있습니다.</div>
 		<div class="mt-8 w-full">
 			<div class="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 max-w-6xl mx-auto">
+				{{ $roomDescs := slice "네이비 소파와 골드 프레임 TV월이 있는 응접 공간" "골드 월아트와 네이비 쿠션 소파 라운지" "골드 커튼과 은빛 장식벽이 있는 파티 플로어" "VIP 네이비 가죽 소파와 골드 다이아몬드 벽면 룸" }}
 				{{ range $n := seq 1 6 }}
 				<figure class="overflow-hidden rounded-sm" oncontextmenu="return false;" ondragstart="return false;">
-					<img class="block w-full aspect-video object-cover" src="{{ printf "/index/rooms/room-%02d.png" $n }}" alt="{{ $.Site.Params.Store.Location }} {{ $.Site.Params.Store.Name }} {{ $.Site.Params.Store.Category }} 룸 이미지 {{ $n }}">
+					<img class="block w-full aspect-video object-cover" src="{{ printf "/index/rooms/room-%02d.png" $n }}" alt="{{ $.Site.Params.Store.Location }} {{ $.Site.Params.Store.Name }} {{ $.Site.Params.Store.Category }} {{ index $roomDescs (mod (sub $n 1) (len $roomDescs)) }}">
 				</figure>
 				{{ end }}
 			</div>
