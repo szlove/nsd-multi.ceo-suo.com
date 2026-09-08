@@ -7,11 +7,11 @@ title = '낙성대 다국적노래방 비노 VINO 할인 정보'
   adsTelegramId = "ggyuvely"
 
   description = '다국적노래방이라는 이름은 접객원의 국적 구성이 여러 나라에 걸쳐 있다는 데서 나왔습니다. 낙성대 비노도 이 구성을 유지하고 있어, 언어나 문화가 다른 손님이 섞인 모임이라도 서로 어색해지지 않도록 응대하는 편입니다. 통상 한 국적으로만 채워지는 다른 업종과 견주면 이 지점이 가장 뚜렷하게 갈리는 부분이고, 회식 자리에 여러 배경의 지인이 함께 오는 경우에도 무리 없이 어울릴 수 있다는 점이 특징으로 꼽힙니다.'
-  author = '두리'
+  author = '비노'
   datePublished = "2026-08-18T09:16:00+09:00"
   dateModified = "2026-08-18T09:16:00+09:00"
   [params.store]
-	tel = "010-8306-5747"
+	tel = "010-7456-5410"
   location = "낙성대"
 	locationEn = "NSD"
   name = "비노"
@@ -20,8 +20,8 @@ title = '낙성대 다국적노래방 비노 VINO 할인 정보'
 	category = "다국적노래방"
 	categoryEn = "Multi-KTV"
 	categoryIs = "는"
-	address = "서울 관악구"
-	googleMapSrc = "https://www.google.com/maps?q=서울+관악구&output=embed"
+	address = "서울 관악구 봉천동"
+	googleMapSrc = "https://www.google.com/maps?q=서울+관악구+봉천동&output=embed"
 
 enableRobotsTXT = false
 cleanDestinationDir = true
